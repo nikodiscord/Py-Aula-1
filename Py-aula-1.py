@@ -9,4 +9,4 @@ async def on_ready():
     print('ID:', client.user.id)
     print("Servidores: {} Serves".format(str(len(client.servers))))
 
-    client.run("")
+client.run("")
